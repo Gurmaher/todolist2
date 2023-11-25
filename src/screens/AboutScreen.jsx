@@ -31,7 +31,7 @@ function AboutScreen({navigation}) {
       <SafeAreaView>
         <Text style={styles.title}>About tolistapp</Text>
         <TouchableOpacity onPress={handleNamePress}>
-          <Text style={styles.author}>Author: Hartaj Singh Mann</Text>
+          <Text style={styles.author}>Author:GPS </Text>
         </TouchableOpacity>
         <Text style={styles.date}>Current Date: {currentDate}</Text>
         <Button
@@ -44,7 +44,7 @@ function AboutScreen({navigation}) {
       <Modal visible={showEasterEgg} animationType="slide" transparent={true}>
         <View style={styles.modalContainer}>
           <View style={styles.modalContent}>
-            <Text style={styles.modalText}>You found the Easter egg!</Text>
+            <Text style={styles.modalText}>YAY!!! You found the Easter egg!</Text>
             <Button title="Close" onPress={closeEasterEgg} />
           </View>
         </View>
